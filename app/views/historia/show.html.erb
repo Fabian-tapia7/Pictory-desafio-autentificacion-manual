@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Titulo:</strong>
+  <%= @historium.titulo %>
+</p>
+
+<p>
+  <strong>Narracion:</strong>
+  <%= @historium.narracion %>
+</p>
+
+<%= link_to 'Edit', edit_historium_path(@historium) %> |
+<%= link_to 'Back', historia_path %>
